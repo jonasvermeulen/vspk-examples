@@ -431,7 +431,7 @@ def main():
                 'Destination type': entry['destinationType'],
                 'Destination name': entry['destinationValue'],
                 'Source port': entry['sourcePort'],
-                'Destination port': entry['destinationPort'],
+                'Destination port': entry['destPort'],
                 'DSCP': entry['DSCP'],
                 'Stateful': '',
                 'Action': entry['actionDetails']['actionType']
@@ -476,7 +476,7 @@ def main():
                 'Destination type': entry['destinationType'],
                 'Destination name': entry['destinationValue'],
                 'Source port': entry['sourcePort'],
-                'Destination port': entry['destinationPort'],
+                'Destination port': entry['destPort'],
                 'DSCP': entry['DSCP'],
                 'Stateful': '',
                 'Action': entry['actionDetails']['actionType']
@@ -521,7 +521,7 @@ def main():
                 'Destination type': entry['destinationType'],
                 'Destination name': entry['destinationValue'],
                 'Source port': entry['sourcePort'],
-                'Destination port': entry['destinationPort'],
+                'Destination port': entry['destPort'],
                 'DSCP': entry['DSCP'],
                 'Stateful': '',
                 'Action': entry['actionDetails']['actionType']
